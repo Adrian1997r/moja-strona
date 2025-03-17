@@ -383,8 +383,18 @@ footer {
             justify-content: space-between;
             max-width: 50%;
         }
-        nav ul li a {
-            padding: 10px 20px;
+        nav ul li {
+            width: 100%;
+            text-align: center;
+        }
+
+
+        
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px; /* Mniejsze odstępy */
         }
     
         .service {
@@ -417,20 +427,18 @@ footer {
     form {
         width: 90%;
     }
+    #about {
+        padding: 40px 20px; /* Mniejsze odstępy */
+        text-align: center;
+    }
+    #about p {
+        font-size: 1.2em;
+        max-width: 90%;
+        margin: 10px auto;
+        line-height: 1.4;
+    }
     
-        nav ul {
-            display:flex;
-            flex-direction: column;  /* Ustawiamy menu w pionie */
-            align-items: center;
-            gap: 20px;
-            background-color: #121212;
-            position: absolute;
-            top: 60px;
-            right: 0;
-            left: 0;
-            padding: 20px;
-            border-radius: 5px;
-            color: #f7f7f7;
+        
         
     
         
@@ -440,7 +448,6 @@ footer {
         color: #ffd700;
     }
 }
-    }
 
 /* Ikony kontaktu */
 .fa {
