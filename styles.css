@@ -421,7 +421,7 @@ footer {
     }
     
         nav ul {
-            
+            display:none;
             flex-direction: column;  /* Ustawiamy menu w pionie */
             align-items: center;
             gap: 20px;
@@ -432,6 +432,7 @@ footer {
             left: 0;
             padding: 20px;
             border-radius: 5px;
+            color: #f7f7f7;
         
     
         
