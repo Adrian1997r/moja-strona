@@ -369,14 +369,35 @@ footer {
     }
 
    
-
-    .service-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .service {
-        width: 80%; /* Zmniejsz szerokość na mniejszych ekranach */
+    @media (max-width: 768px) {
+        .service-list {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .service {
+            width: 90%; /* Zwiększenie szerokości dla lepszego dopasowania */
+            max-width: none;
+        }
+    
+        .reason {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .reason i {
+            margin-bottom: 10px;
+        }
+    
+        .contact-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .contact-info p {
+            justify-content: center;
+        }
     }
 
     header h1 {

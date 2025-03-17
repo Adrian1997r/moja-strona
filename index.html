@@ -11,10 +11,16 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+    }
+</script>
 <body>
     <!-- Nagłówek -->
     <header>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> 
         <div class="container">
             <nav>
                 <ul>
