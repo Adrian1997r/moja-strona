@@ -421,7 +421,7 @@ footer {
     }
     
         nav ul {
-            display: none;  /* Ukrywamy menu na urządzeniach mobilnych */
+            
             flex-direction: column;  /* Ustawiamy menu w pionie */
             align-items: center;
             gap: 20px;
