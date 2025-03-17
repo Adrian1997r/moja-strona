@@ -38,7 +38,7 @@
 /* Styl dla nagłówków w punktach */
 .reason strong {
     font-weight: bold;
-    color: #003366; /* Zmieniamy kolor na ciemniejszy, żeby był bardziej kontrastowy */
+    color: #ffffff; /* Zmieniamy kolor na ciemniejszy, żeby był bardziej kontrastowy */
 }
 
 /* Dodatkowe style dla sekcji */
@@ -243,7 +243,7 @@ nav ul li a:hover {
     background-image: url('fotofurek.jpg');
 }
 .service:nth-child(3) {
-    background-image: url('fota.jpg.jpg');
+    background-image: url('reno.jpg');
 }
 
 .service:hover {
@@ -254,7 +254,7 @@ nav ul li a:hover {
 .service h3 {
     font-size: 1.8em;
     margin-bottom: 15px;
-    color:#fa7101f8;
+    color:#0ec52d;
     margin-top: 320px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -359,6 +359,17 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: 0;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Odstęp między zdjęciami */
+        flex-wrap: nowrap; /* Zapobiega zawijaniu zdjęć pod spód */
+    }
+    .image-container img {
+        width: 50%; /* Każde zdjęcie zajmuje połowę szerokości */
+        height: auto;
+        border-radius: 10px;
     }
 
     nav ul li {
